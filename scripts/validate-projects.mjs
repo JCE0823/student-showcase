@@ -110,7 +110,7 @@ async function main() {
     const suggested = ['projectImage', 'tags'];
     for (const key of suggested) {
       if (!(key in data)) {
-        console.log(` - suggestion: consider adding "${key}"`);
+        console.log(` - ${file}: suggestion: consider adding "${key}"`);
       }
     }
   }
