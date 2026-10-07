@@ -1,0 +1,284 @@
+/* Button for expanding/collapsing course details */
+.expand-details-btn {
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background: var(--color-secondary, #FFCB05);
+  color: var(--color-primary, #00274C);
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.expand-details-btn:hover,
+.expand-details-btn:focus {
+  background: #ffe066;
+}
+
+/* Expanded course details section (two-column) */
+.course-details-columns {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
+.course-details-col {
+  flex: 1 1 280px;
+  min-width: 250px;
+  max-width: 420px;
+  background: rgba(255,255,255,0.07);
+  border-radius: 8px;
+  padding: 1.5em 2em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  text-align: left;
+}
+.course-details-col h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+.course-details-col h4 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+.course-details-col ul {
+  padding-left: 1.2em;
+  margin-top: 0.5em;
+}
+.course-details-col p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+.course-details-col table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5em;
+}
+.course-details-col table th {
+  text-align: left;
+  padding: 0.5em 0.75em;
+  border-bottom: 2px solid rgba(255,255,255,0.2);
+  font-weight: 600;
+}
+.course-details-col table td {
+  padding: 0.75em 0.75em;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  vertical-align: top;
+}
+.course-details-col table td:first-child {
+  font-weight: 600;
+  white-space: nowrap;
+}
+@media (max-width: 900px) {
+  .course-details-columns {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+/* Two-column layout for expanded course details */
+.course-details-columns {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
+.course-details-col {
+  flex: 1 1 320px;
+  min-width: 280px;
+  max-width: 500px;
+  background: rgba(255,255,255,0.07);
+  border-radius: 8px;
+  padding: 1.2em 1.5em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+@media (max-width: 900px) {
+  .course-details-columns {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+/* Global site layout/styles used by pages and shared components */
+/* Moved from App.css to decouple from App component */
+
+/* ===== CSS Reset & Base Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tokens are imported from styles/tokens.css via index.css */
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+/* ===== Header ===== */
+.header {
+  background: linear-gradient(135deg, var(--color-primary) 0%, #003d7a 100%);
+  color: white;
+  padding: var(--space-2xl) 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-sm);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  opacity: 0.95;
+  margin-bottom: var(--space-md);
+  color: var(--color-secondary);
+}
+
+.description {
+  font-size: 1.125rem;
+  max-width: 720px;
+  margin: 0 auto;
+  opacity: 0.9;
+  line-height: 1.7;
+}
+
+/* ===== Main Content ===== */
+.main {
+  flex: 1;
+  padding: var(--space-2xl) 0;
+  background-color: var(--color-bg);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+
+/* Project link buttons (shared) */
+.project-link {
+  text-decoration: none;
+  padding: var(--space-xs) var(--space-md);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.project-link.primary {
+  background-color: var(--color-accent);
+  color: white;
+}
+
+.project-link.primary:hover {
+  background-color: #0052A3;
+  transform: translateX(2px);
+}
+
+.project-link.secondary {
+  background-color: var(--color-bg-alt);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+.project-link.secondary:hover {
+  background-color: white;
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.no-projects {
+  text-align: center;
+  padding: var(--space-2xl);
+  color: var(--color-text-light);
+  font-size: 1.125rem;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background-color: var(--color-primary);
+  color: white;
+  padding: var(--space-xl) 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer p {
+  opacity: 0.9;
+  margin: 0.25rem 0;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+  }
+  
+  .container {
+    padding: 0 var(--space-md);
+  }
+  
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: var(--space-xl) 0;
+  }
+  
+  .title {
+    font-size: 1.75rem;
+  }
+  
+  .project-links {
+    flex-direction: column;
+  }
+  
+  .project-link {
+    text-align: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Student silhouette">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6eaf0"/>
+      <stop offset="100%" stop-color="#d4dbe5"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" fill="url(#g)"/>
+  <circle cx="64" cy="46" r="22" fill="#b8c2cf"/>
+  <path d="M18 112c0-22 20-36 46-36s46 14 46 36" fill="#b8c2cf"/>
+</svg>
