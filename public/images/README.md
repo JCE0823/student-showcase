@@ -6,24 +6,18 @@ Place project screenshots and images here.
 
 - **Format**: JPG or PNG
 - **Recommended size**: 800x600px or similar 4:3 aspect ratio
-- **File naming**: Use lowercase with hyphens (e.g., `climate-explorer.jpg`)
-- **File size**: Keep under 500KB for faster loading
+- **File naming**: start with your GitHub username, lowercase with hyphens (e.g.,
+  `username-ps3.png`), so it cannot collide with anyone else's
+- **File size**: Keep under 500KB for faster loading; the check refuses anything over 10MB
 
 ## Usage
 
-Reference images in your project JSON files:
+Refer to an image in your project JSON file by its file name only, with no path:
 
 ```json
 {
-  "projectImage": "/images/your-project-name.jpg"
+  "projectImage": "username-ps3.png"
 }
 ```
 
-The `/images/` path refers to this `public/images/` directory.
-
-## Placeholder
-
-If you don't have a screenshot yet, you can:
-1. Leave the `projectImage` field empty
-2. Use a screenshot tool or browser DevTools to capture your project
-3. Use a placeholder service temporarily: `https://via.placeholder.com/800x600`
+Leave `projectImage` out and your card shows a placeholder.

@@ -1,15 +1,14 @@
-## Summary
-Briefly describe your project and what this PR adds.
+## What this adds
+
+Your app's name, and one line on what it does.
 
 ## Checklist
-- [ ] My JSON file follows `src/data/projects/project.schema.json`
-- [ ] I added my screenshot to `public/images/` and referenced it as `/images/...`
-- [ ] I ran `npm install` and `npm run validate` locally (optional but encouraged)
-- [ ] My project builds locally with `npm run build` (optional but encouraged)
 
-## Links
-- Live project URL: 
-- GitHub repo URL: 
+- [ ] One JSON file in `src/data/projects/`, named `<my-github-username>-ps3.json` (or `-project.json`)
+- [ ] Images, if any, are in `public/images/` and referred to by file name only
+- [ ] `npm run validate` passes locally
+- [ ] My card looks right in `npm run dev`
 
-## Notes
-Anything reviewers should know.
+## Live app
+
+- URL:

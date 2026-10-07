@@ -1,16 +1,19 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.com/umsi211/project.schema.json",
-  "title": "UMSI 211 Project",
+  "$id": "https://umsi212f2026.github.io/student-showcase/project.schema.json",
+  "title": "SI 212 Project",
   "type": "object",
   "additionalProperties": false,
   "required": [
+    "assignment",
     "studentName",
     "projectTitle",
     "description",
-    "projectType"
+    "projectType",
+    "projectUrl"
   ],
   "properties": {
+    "assignment": { "type": "string", "enum": ["Problem Set 3", "Final Project"] },
     "studentName": { "type": "string", "minLength": 2 },
     "projectTitle": { "type": "string", "minLength": 2 },
     "description": { "type": "string", "minLength": 10 },
@@ -29,7 +32,7 @@
         ]
       }
     },
-    "projectUrl": { "type": "string", "format": "uri" },
+    "projectUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
     "githubUrl": { "type": "string", "format": "uri" },
     "projectImage": { "type": "string" },
     "tags": {

@@ -58,10 +58,11 @@ async function main() {
       }
     }
 
-    // Basic extra checks for image field (renamed to projectImage)
-    if (data.imageUrl) {
+    // One file per student per assignment, named for the student's GitHub username
+    const suffix = { 'Problem Set 3': '-ps3.json', 'Final Project': '-project.json' }[data.assignment];
+    if (suffix && !(file.endsWith(suffix) && /^[a-z0-9-]+$/.test(file.slice(0, -suffix.length)))) {
       hasErrors = true;
-      console.log(" - 'imageUrl' has been renamed to 'projectImage'. Please update your JSON.");
+      console.log(` - ${file}: a "${data.assignment}" entry is named <your-github-username>${suffix}, in lowercase`);
     }
 
     if (data.projectImage) {
@@ -106,7 +107,7 @@ async function main() {
     }
 
     // Suggested field presence
-    const suggested = ['projectUrl', 'githubUrl', 'tags'];
+    const suggested = ['projectImage', 'tags'];
     for (const key of suggested) {
       if (!(key in data)) {
         console.log(` - suggestion: consider adding "${key}"`);

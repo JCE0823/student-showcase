@@ -1,5 +1,5 @@
 {
-  "name": "UMSI 211 Student Showcase",
+  "name": "SI 212 Student Showcase",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
   "forwardPorts": [5173],
   "portsAttributes": {

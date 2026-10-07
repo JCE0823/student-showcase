@@ -13,4 +13,6 @@ export const sortedProjects: Project[] = [...projects].sort((a, b) =>
 
 export const projectTypes: string[] = [...new Set(projects.flatMap(p => p.projectType))].sort();
 
+export const assignments: string[] = [...new Set(projects.map(p => p.assignment))].sort();
+
 export const allTags: string[] = [...new Set(projects.flatMap(p => p.tags || []))].sort();

@@ -62,7 +62,7 @@ export function ProjectCard({ project }: { project: Project }) {
           />
           <div>
             <h3 className={styles['project-title']}>{project.projectTitle}</h3>
-            <p className={styles['project-author']}>by {project.studentName}</p>
+            <p className={styles['project-author']}>by {project.studentName} · {project.assignment}</p>
           </div>
         </div>
 

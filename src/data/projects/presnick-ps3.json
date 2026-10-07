@@ -1,0 +1,11 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Paul Resnick",
+  "projectTitle": "This Showcase",
+  "description": "The page you are looking at. It deploys itself to GitHub Pages on every push to main, and each card on it arrived as a pull request, the way yours will.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://umsi212f2026.github.io/student-showcase/",
+  "githubUrl": "https://github.com/umsi212F2026/student-showcase",
+  "tags": ["React", "GitHub Pages", "GitHub Actions"],
+  "studentPhoto": "Resnick_Paul.jpeg"
+}
