@@ -17,7 +17,7 @@ One file per student per assignment, named for your GitHub username in lowercase
 
 ## Optional
 
-- **githubUrl**: your repository. A private one is fine; only people with access can follow it.
+- **githubUrl**: your repository, only if it is public. Visitors to a private one get a 404.
 - **projectImage**: a screenshot's file name in `public/images/`, no path
 - **tags**: technologies, such as `["React", "Express", "Postgres"]`
 - **reflections**: a short quote about something you learned or are proud of

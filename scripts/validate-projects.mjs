@@ -106,6 +106,22 @@ async function main() {
       }
     }
 
+    // A private repository looks like a broken link to visitors: GitHub answers 404 to anyone
+    // without access. Warn rather than fail, since githubUrl is optional.
+    if (data.githubUrl) {
+      try {
+        const res = await fetch(data.githubUrl, { method: 'HEAD', redirect: 'follow' });
+        if (res.status === 404) {
+          console.log(
+            ` - ${file}: warning: githubUrl is not public, so visitors will get a 404. ` +
+              'Make the repository public or remove githubUrl.',
+          );
+        }
+      } catch {
+        console.log(` - ${file}: warning: could not reach githubUrl to check that it is public`);
+      }
+    }
+
     // Suggested field presence
     const suggested = ['projectImage', 'tags'];
     for (const key of suggested) {

@@ -49,8 +49,9 @@ matches the schema and its images exist, and the site still builds. If one fails
 fix the problem, and **push to the same branch**. The pull request picks up the new commit and
 reruns the checks on its own, so do not open a second one.
 
-**A private repository is fine for `githubUrl`**, or leave it out. Only people with access will
-be able to follow the link.
+**Only give a `githubUrl` if the repository is public.** GitHub shows a private repository to
+anyone without access as a 404, so on your card it looks like a broken link. You won't notice,
+because you can see it. `npm run validate` warns you if the link is not public.
 
 ## Running it locally
 
