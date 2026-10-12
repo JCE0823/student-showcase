@@ -1,0 +1,15 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "StevenKoya",
+  "projectTitle": "Acronym Practice Lab",
+  "description": "Practice acronym expansions, track attempts, and manage a shared deck. Built with React, a Node.js API, and persistent PostgreSQL storage.",
+  "projectType": [
+    "Web App"
+  ],
+  "projectUrl": "https://si212-acronym-web.vercel.app",
+  "tags": [
+    "React",
+    "Node.js",
+    "PostgreSQL"
+  ]
+}
