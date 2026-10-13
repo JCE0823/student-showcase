@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Henry Butler-Madey",
+  "projectTitle": "NFL Standings Tracker",
+  "description": "A live NFL standings dashboard that imports current records, calculates rankings and playoff projections, and lets users manage team data with a persistent backend.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://nfl-standings-web.onrender.com",
+  "tags": ["React", "Express", "Postgres"]
+}
