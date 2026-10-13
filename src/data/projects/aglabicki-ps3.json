@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Ashley",
+  "projectTitle": "Recipe Pantry Planner",
+  "description": "A personal recipe book and pantry planner with Google sign-in. Each account keeps its own recipes and pantry, with server-enforced owner and member permissions.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://recipe-pantry-planner.vercel.app/",
+  "tags": ["React", "Express", "Postgres", "Google OAuth"]
+}
