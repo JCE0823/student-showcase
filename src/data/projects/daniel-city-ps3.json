@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Daniel Sun",
+  "projectTitle": "Housing Comparison App",
+  "description": "Compare housing options side by side, manage nearby places, and explore approximate locations on an optional map.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://web-housing-comparison.onrender.com",
+  "tags": ["React", "Express", "Postgres"]
+}
