@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Zach",
+  "projectTitle": "NFL Weekly Dashboard",
+  "description": "Track the current NFL week's games, pick winners, and choose a confidence pick to follow your season record. Review final scores, weekly recaps, and saved notes in one dashboard.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://si212-assignments-zachsw.vercel.app",
+  "tags": ["React", "Express", "PostgreSQL", "Vercel"]
+}
