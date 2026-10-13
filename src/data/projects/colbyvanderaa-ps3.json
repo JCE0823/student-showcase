@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Study Tracker App",
+  "projectTitle": "Study Planner",
+  "description": "Organize courses and tasks, log study sessions, and track progress toward study-time goals.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://si212-study-planner.onrender.com",
+  "tags": ["React", "Express", "PostgreSQL", "Render", "Neon"]
+}
