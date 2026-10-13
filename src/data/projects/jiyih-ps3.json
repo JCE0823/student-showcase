@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Jiyi",
+  "projectTitle": "Odd Company",
+  "description": "Create playful vector mascots from geometric and organic shapes. Refine their expressions, save a private collection, and share your characters on a neighborhood noticeboard.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://odd-company.vercel.app",
+  "tags": ["React", "Express", "Postgres"]
+}
