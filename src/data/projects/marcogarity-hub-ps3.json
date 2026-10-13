@@ -2,7 +2,7 @@
   "assignment": "Problem Set 3",
   "studentName": "Marco",
   "projectTitle": "Whispr",
-  "description": "Turn speech into text in your browser, then copy it into your favorite app. Sign in with Google to save your transcript and track your dictation usage.",
+  "description": "Turn speech into text in your browser, then copy it into your favorite app; Google sign-in saves your transcript and tracks usage. I also built a local Mac desktop version with a global recording shortcut that pastes dictation directly into other apps across my computer.",
   "projectType": ["Web App"],
   "projectUrl": "https://whispr-flow-clone.vercel.app",
   "tags": ["React", "Express", "PostgreSQL", "Google OAuth", "Whisper"]
