@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Marco",
+  "projectTitle": "Whispr",
+  "description": "Turn speech into text in your browser, then copy it into your favorite app. Sign in with Google to save your transcript and track your dictation usage.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://whispr-flow-clone.vercel.app",
+  "tags": ["React", "Express", "PostgreSQL", "Google OAuth", "Whisper"]
+}
