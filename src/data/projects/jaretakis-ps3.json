@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "James Aretakis",
+  "projectTitle": "Bracket Buddy",
+  "description": "Simulate college basketball matchups, build and grade your own tournament bracket, and save your picks with Google sign-in.",
+  "projectType": ["Web App", "Simulation"],
+  "projectUrl": "https://bracket-buddy-theta.vercel.app",
+  "tags": ["JavaScript", "Vite", "Supabase", "Postgres"]
+}
