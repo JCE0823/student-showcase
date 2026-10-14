@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Phuc Dinh",
+  "projectTitle": "BeHealth Meal Planner",
+  "description": "Save recipes, plan your week, and build a shopping list. GitHub sign-in keeps personal meal plans separate.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://phucdinh-meal-planner.onrender.com",
+  "tags": ["React", "Express", "Postgres"]
+}
