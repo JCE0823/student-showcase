@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Elliot Bolour",
+  "projectTitle": "Space Mission Tracker",
+  "description": "Explore a fictional space mission catalog and keep a private mission log with Google sign-in.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://space-mission-tracker-h6rw.onrender.com",
+  "tags": ["React", "Express", "Postgres", "Google OAuth"]
+}
