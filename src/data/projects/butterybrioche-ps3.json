@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Grace Piotrowski",
+  "projectTitle": "Japanese Snack Quiz",
+  "description": "Take a personality quiz to discover which Japanese snack matches you, with GitHub sign-in and saved progress across visits.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://japanese-snack-quiz.onrender.com",
+  "tags": ["React", "Express", "GitHub OAuth", "Turso"]
+}
