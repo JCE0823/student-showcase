@@ -1,0 +1,15 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Beckett",
+  "projectTitle": "Pantry Plate",
+  "description": "Plan roommate dinners from the groceries you have. Scale recipes for your group, see estimated calories, and find what you still need to buy.",
+  "projectType": [
+    "Web App"
+  ],
+  "projectUrl": "https://beckett-pantry-plate-final-1014.onrender.com",
+  "tags": [
+    "React",
+    "Node.js",
+    "PostgreSQL"
+  ]
+}
