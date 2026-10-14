@@ -2,7 +2,7 @@
   "assignment": "Problem Set 3",
   "studentName": "Ben Ladetsky",
   "projectTitle": "Digital Kitchen",
-  "description": "Browse shared recipes, track your own groceries, and record meals while keeping ingredient quantities up to date. Google sign-in separates personal kitchen activity from owner-managed recipes.",
+  "description": "Keep private recipes and groceries, check ingredient availability, and record meals while keeping quantities up to date. Google sign-in gives each account its own kitchen, with owner-only service administration.",
   "projectType": ["Web App"],
   "projectUrl": "https://si212-assignments-bladetsk.onrender.com",
   "tags": ["React", "Express", "Postgres"]
