@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Ruby",
+  "projectTitle": "Ruby’s Command Center",
+  "description": "A unified workspace for tasks, academics, calendar events, workouts, and meals. Build a focused Today agenda and track changes through an activity history.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://unified-command-center-ruby.onrender.com",
+  "tags": ["React", "Node.js", "Postgres"]
+}
