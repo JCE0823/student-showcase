@@ -5,5 +5,6 @@
   "description": "A unified workspace for tasks, academics, calendar events, workouts, and meals. Build a focused Today agenda and track changes through an activity history.",
   "projectType": ["Web App"],
   "projectUrl": "https://unified-command-center-ruby.onrender.com",
+  "githubUrl": "https://github.com/rubymckillips/rubys-command-center",
   "tags": ["React", "Node.js", "Postgres"]
 }
