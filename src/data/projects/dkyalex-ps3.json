@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Alex Deng",
+  "projectTitle": "Career Experiment Tracker",
+  "description": "A private workspace for exploring career interests through small experiments, tracking progress, and reflecting on what you learn.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://dkyalex-career-experiment-tracker.onrender.com",
+  "tags": ["React", "Express", "Postgres"]
+}
