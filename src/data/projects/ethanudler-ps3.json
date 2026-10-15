@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Ethan Udler",
+  "projectTitle": "Rally Notes",
+  "description": "Plan tennis practices, record reflections, and track progress over time. Google sign-in gives each player a private practice board.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://rally-notes.onrender.com",
+  "tags": ["React", "Node.js", "Postgres", "Google sign-in"]
+}
