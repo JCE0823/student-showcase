@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Ryan",
+  "projectTitle": "Table for One",
+  "description": "Plan weekly meals, track pantry ingredients, compare grocery prices, and discover recipes using what you already have.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://si212-assignments-ryanbonney.onrender.com",
+  "tags": ["React", "Express", "PostgreSQL"]
+}
