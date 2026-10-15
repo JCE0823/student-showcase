@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Jack Davidson",
+  "projectTitle": "Survivor Pool",
+  "description": "Manage a survivor pool with weekly team picks, player standings, and an activity feed. Track who remains in the pool as the season progresses.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://survivor-pool-jack.onrender.com",
+  "tags": ["React", "Express", "Postgres"]
+}
