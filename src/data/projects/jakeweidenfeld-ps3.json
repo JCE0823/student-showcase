@@ -1,0 +1,11 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Jake Weidenfeld",
+  "projectTitle": "WWDD Charity Golf Tournament",
+  "description": "The website for the What Would Don Do charity golf tournament, which honors Don Weidenfeld and benefits Experience Camps. Members sign in with Google to join the 2027 interest list and see past results, and organizers manage it all from an admin dashboard.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://wwdd-golf.vercel.app",
+  "githubUrl": "https://github.com/jakeweidenfeld/wwdd-golf",
+  "projectImage": "jakeweidenfeld-ps3.jpg",
+  "tags": ["React", "Express", "Postgres", "Google OAuth", "Vercel"]
+}
