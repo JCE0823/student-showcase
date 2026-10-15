@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Max Chu",
+  "projectTitle": "Weekly Meal Planner",
+  "description": "Plan a week of meals, save recipes, build a shopping list, and keep a cooking history. GitHub sign-in gives the owner editing access and classmates a recipe view.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://si212-ps3-app.onrender.com",
+  "tags": ["React", "Express", "PostgreSQL", "Render", "Neon"]
+}
