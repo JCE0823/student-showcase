@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "JCE0823",
+  "projectTitle": "Cooking Saver",
+  "description": "Search shared recipes, save personal copies, and manage a private recipe collection with secure Google sign-in.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://cooking-saver-api-jce0823.onrender.com",
+  "tags": ["React", "Express", "Postgres", "Google OAuth"]
+}
