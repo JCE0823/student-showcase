@@ -1,0 +1,11 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Francesc",
+  "projectTitle": "Movie Night Mixer",
+  "description": "A film club's shared movie ballot: sign in with GitHub, stamp a vote for what you want to watch, and the mixer picks tonight's movie, favoring the most-voted unwatched film. Only the club owner can change the ballot, and the server enforces it.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://movie-night-mixer-fllop.onrender.com",
+  "projectImage": "fllop-pixel-ps3.png",
+  "tags": ["React", "Express", "Postgres", "GitHub OAuth", "Render", "Neon"],
+  "reflections": "Moving from a local SQLite file to a hosted Postgres database with migrations, so the club's data survives every redeploy."
+}
