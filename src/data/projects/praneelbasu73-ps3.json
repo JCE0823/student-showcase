@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Praneel Basu",
+  "projectTitle": "Costco Split",
+  "description": "Plan a shared Costco haul, divide every item fairly, and keep a persistent record of purchases and repayments.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://si212-assignments-praneelb.onrender.com",
+  "tags": ["React", "Node.js", "PostgreSQL", "GitHub OAuth"]
+}
