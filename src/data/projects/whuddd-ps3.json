@@ -1,0 +1,11 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "William Huddleston",
+  "projectTitle": "Trade Journal",
+  "description": "An options trading journal with a terminal look. Log calls and puts, grade each trade against a checklist of rules, and see whether following each rule actually pays.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://trade-journal-two-sigma.vercel.app",
+  "githubUrl": "https://github.com/whuddd/trade-journal",
+  "projectImage": "whuddd-ps3.png",
+  "tags": ["React", "Express", "Postgres", "Vercel", "Neon", "GitHub OAuth"]
+}
