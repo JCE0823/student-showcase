@@ -44,7 +44,8 @@ pulled in.
 6. Commit, push your branch to your fork, and open a **pull request** from that branch into this
    repository's `main`.
 
-**The pull request runs three checks:** it adds only new files in those two folders, your JSON
+**The pull request runs three checks:** it adds only new files in those two folders (or changes
+your own JSON file, to fix a card that is already up), your JSON
 matches the schema and its images exist, and the site still builds. If one fails, read its log,
 fix the problem, and **push to the same branch**. The pull request picks up the new commit and
 reruns the checks on its own, so do not open a second one.
