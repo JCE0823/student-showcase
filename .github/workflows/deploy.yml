@@ -10,6 +10,12 @@ permissions:
   pages: write
   id-token: write
 
+# Pages allows one deployment at a time, so a burst of merges must queue rather than
+# collide. A queued run superseded by a newer push is cancelled; the newer one deploys it.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
