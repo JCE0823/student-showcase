@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Sam M.",
+  "projectTitle": "ParkMatch",
+  "description": "Find a national park that matches your region, trip length, and favorite activities. Track visited parks and keep your recommendation history.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://parkmatch-mitcsam.onrender.com",
+  "tags": ["React", "Express", "PostgreSQL"]
+}
