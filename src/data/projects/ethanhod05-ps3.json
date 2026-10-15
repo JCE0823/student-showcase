@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Ethan Hod",
+  "projectTitle": "Campus Study Spot Finder",
+  "description": "Discover campus study spots, compare community ratings, save favorites, and share reviews with GitHub sign-in and owner-curated listings.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://si212-assignments-ehod.vercel.app",
+  "tags": ["React", "Express", "Neon Postgres", "GitHub OAuth"]
+}
