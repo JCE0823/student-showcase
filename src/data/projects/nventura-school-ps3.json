@@ -1,0 +1,10 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Nick",
+  "projectTitle": "Nick's Acronym Builder",
+  "description": "A web app for building a personal acronym library and practicing each expansion. Google sign-in keeps each learner's practice history separate, while the owner manages the shared library.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://acronym-recall.onrender.com",
+  "tags": ["React", "Express", "Postgres"],
+  "reflections": "I learned how a deployed frontend, backend, database, and OAuth sign-in flow work together."
+}
