@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Jessica Li",
+  "projectTitle": "Motion Kitchen",
+  "description": "Tune motion for buttons, toasts, and drawers, compare hidden recipes, and save your own motion recipes.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://motion-kitchen.vercel.app",
+  "tags": ["React", "Motion", "Node.js", "Postgres"]
+}
