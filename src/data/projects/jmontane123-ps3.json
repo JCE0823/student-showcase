@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "jmontane123",
+  "projectTitle": "Study Sprint",
+  "description": "Plan study tasks, run focus sessions, and track your progress. Google sign-in keeps each student's workspace private, with owner permissions enforced by the server.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://study-sprint-production.up.railway.app",
+  "tags": ["React", "Express", "PostgreSQL", "Google OAuth"]
+}
