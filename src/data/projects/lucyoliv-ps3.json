@@ -1,0 +1,9 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Lucy",
+  "projectTitle": "Study Planner",
+  "description": "A private study planner that organizes classes and materials, generates study schedules, and tracks progress.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://study-planner-qbmq.onrender.com",
+  "tags": ["React", "Express", "Postgres"]
+}
