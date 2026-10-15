@@ -1,0 +1,17 @@
+{
+  "assignment": "Problem Set 3",
+  "studentName": "Jackson",
+  "projectTitle": "Passing Notes",
+  "description": "A daily guessing game for private friend groups. Answer a shared prompt anonymously, match notes to friends, and return for the reveal and scores.",
+  "projectType": [
+    "Web App"
+  ],
+  "projectUrl": "https://passing-notes.vercel.app",
+  "githubUrl": "https://github.com/jacksonjlove/passing-notes",
+  "studentPhoto": "Love_Jackson.jpeg",
+  "tags": [
+    "React",
+    "Express",
+    "Postgres"
+  ]
+}
